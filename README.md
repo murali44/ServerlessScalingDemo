@@ -28,6 +28,9 @@ This repo uses the serverless framework to deploy the project. Please install it
 
 ![browse](https://i.imgur.com/kQaahT5.png "browse")
 
+- Here's the endpoint I deployed: https://pfw8pdesyf.execute-api.us-east-1.amazonaws.com/dev/helloworld
+
+- The service is currently configured to handle 5 concurrent requests at the same time.
 
 ## Load testing the API
 
