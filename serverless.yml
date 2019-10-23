@@ -24,7 +24,7 @@ custom:
 provider:
   name: aws
   runtime: python3.7
-  profile: kyruus
+  # profile: kyruus
   stage: dev
   region: us-east-1 # US East (N. Virginia).
   stackTags:
@@ -50,7 +50,7 @@ functions:
     handler: src/app.handler
     memorySize: 128
     timeout: 5
-    reservedConcurrency: 50
+    reservedConcurrency: 5
     role: HelloWorldRole
     events:
     - http:
