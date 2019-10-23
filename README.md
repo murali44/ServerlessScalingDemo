@@ -18,6 +18,8 @@ This repo uses the serverless framework to deploy the project. Please install it
 
 - Make sure your AWS account credentials are in the `~/.aws/credentials` file.
 
+- Run `source set_env_vars.sh` to inject environment variables into the Lambda environment.
+
 - Run the deploy command in the repo root folder. `sls deploy -v`
 
 - Note the `GET` endpoint displayed once the service is deployed.
@@ -27,6 +29,10 @@ This repo uses the serverless framework to deploy the project. Please install it
 - Test the service by navigating to the url in a browser.
 
 ![browse](https://i.imgur.com/kQaahT5.png "browse")
+
+## What does this API
+
+- This is a simple GET API which return the string `Hello` followed by a name stored in an environment variable. 
 
 - Here's the endpoint I deployed: https://pfw8pdesyf.execute-api.us-east-1.amazonaws.com/dev/helloworld
 
