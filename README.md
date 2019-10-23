@@ -32,11 +32,11 @@ This repo uses the serverless framework to deploy the project. Please install it
 
 ## What does this API do?
 
-- This is a simple GET API which return the string `Hello` followed by a name stored in an environment variable. 
+- This is a simple GET API which returns the string `Hello` followed by a name stored in an environment variable. 
 
 - Here's the endpoint I deployed: https://pfw8pdesyf.execute-api.us-east-1.amazonaws.com/dev/helloworld
 
-- The service is currently configured to handle 5 concurrent requests at the same time.
+- The service is currently configured to handle 5 concurrent requests.
 
 ## Load testing the API
 
