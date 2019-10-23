@@ -30,7 +30,7 @@ This repo uses the serverless framework to deploy the project. Please install it
 
 ![browse](https://i.imgur.com/kQaahT5.png "browse")
 
-## What does this API
+## What does this API do?
 
 - This is a simple GET API which return the string `Hello` followed by a name stored in an environment variable. 
 
