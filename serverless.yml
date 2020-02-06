@@ -4,7 +4,7 @@ tenant: muralia
 app: kyruus
 
 
-frameworkVersion: '=1.54.0'
+frameworkVersion: '>=1.51.0'
 
 
 custom:
@@ -36,11 +36,11 @@ provider:
   usagePlan:
     quota:
       limit: 1000
-      offset: 2
+      offset: 2 # if starting in middle of month, deduct this from limit.
       period: MONTH
     throttle:
-      burstLimit: 50
-      rateLimit: 100
+      burstLimit: 50 # max requests in a short time (1 to few seconds)
+      rateLimit: 100 # Average requests over an extend period
 
 
 functions:
